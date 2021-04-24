@@ -1,0 +1,20 @@
+.header {
+  background: $dark;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  border-bottom: 1px solid rgb(50, 50, 50); 
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    &--contact {
+      color: $white;
+      font-family: $fontlight;
+      font-size: 20px;
+    }
+    &--nav {
+      color: $neon;
+    }
+  }
+}
