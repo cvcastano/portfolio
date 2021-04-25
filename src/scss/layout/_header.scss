@@ -5,6 +5,12 @@
   position: fixed;
   border-bottom: 1px solid rgb(50, 50, 50);
 }
+.header_nav {
+  @media all and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
 .header_nav-small {
   display: flex;
   justify-content: space-between;
@@ -15,14 +21,36 @@
   border: none;
   color: $neon;
   font-size: 1.5rem;
+  cursor: pointer;
+  @media all and (min-width: 768px) {
+    display: none;
+  }
+}
+.social_icons {
+  height: 0;
+  color: $neon;
+  display: none;
+  @media all and (min-width: 768px) {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+  }
+  i {
+    padding-left: 1rem;
+  }
 }
 .nav_link {
   color: $white;
+  padding-right: 1rem;
 }
 .nav_links {
   height: 0;
   overflow: hidden;
   transition: height 1s ease;
+  @media all and (min-width: 768px) {
+    height: auto;
+    display: flex;
+  }
 }
 .show_links {
   height: 5rem;
