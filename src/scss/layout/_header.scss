@@ -1,6 +1,6 @@
 .header {
   background: $dark;
-  padding: 20px 0;
+  padding: 1rem 0;
   width: 100%;
   position: fixed;
   border-bottom: 1px solid rgb(50, 50, 50);
@@ -9,14 +9,15 @@
   display: flex;
   justify-content: space-between;
 }
-.nav_link {
-  color: $white;
-}
 .nav_button {
   background: none;
   outline: none;
   border: none;
   color: $neon;
+  font-size: 1.5rem;
+}
+.nav_link {
+  color: $white;
 }
 .nav_links {
   height: 0;
@@ -25,4 +26,7 @@
 }
 .show_links {
   height: 5rem;
+}
+.rotate {
+  transform: rotate(90deg);
 }
