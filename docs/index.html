@@ -18,7 +18,7 @@
   </head>
   <body>
     <div class="page">
-      <header class="header" id="header">
+      <header class="header">
         <nav class="header_nav container">
           <div class="header_nav-small">
             <a class="nav_link" href="#contact">Contact me</a>
@@ -26,15 +26,42 @@
               <i class="fas fa-bars"></i>
             </button>
           </div>
+          <ul class="social_icons">
+            <li>
+              <a href="https://github.com/cvcastano" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/carolina-castano/" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://twitter.com/cvcastano" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/cvcastano" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="mailto:carocastanocastillo@gmail.com"
+                ><i class="fas fa-envelope"></i
+              ></a>
+            </li>
+          </ul>
           <ul class="nav_links js-nav">
-            <li class="nav_link link"><a href="index.html">Home</a></li>
-            <li class="nav_link link"><a href="about.html">About</a></li>
-            <li class="nav_link link"><a href="projects.html">Projects</a></li>
+            <!-- <li class="nav_link link"><a href="#main">Home</a></li> -->
+            <li class="link"><a class="nav_link" href="#about">About</a></li>
+            <li class="link"><a class="nav_link" href="#projects">Projects</a></li>
           </ul>
         </nav>
       </header>
 
-      <main class="main">
+      <main class="main" id="home">
         <div class="main__container container">
           <h1 class="main__title">
             <span class="main__title--span1">Meet</span>
@@ -44,20 +71,25 @@
         </div>
       </main>
 
-      <section class="module2" id="module2">
+      <section class="about" id="about">
       <div class="container">
-          <h2>Hey there, I am Caro</h2>
-          <p>Me presento brevemente y luego van mis proyectos</p>
+          <p>Aquí me presento brevemente</p>
       </div>
       </section>
 
-      <section class="module3" id="module3">
-
+      <section class="projects" id="projects">
+        <p>Aquì iràn los proyectos</p>
       </section>
 
+      <section class="contact" id="contact">
+          <p>Aquì un cuestionario de contacto</p>
+      </section>
       <footer class="footer">
-      <p class="text"> made by &#169;aro</p>
+        <p class="text">made by &copy;aro</p>
       </footer>
+      <a class="arrow-up" href="#home">
+        <i class="fas fa-arrow-circle-up"></i>
+      </a>
 
     </div>
     <script src="./assets/js/main.js"></script>
