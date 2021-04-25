@@ -3,18 +3,26 @@
   padding: 20px 0;
   width: 100%;
   position: fixed;
-  border-bottom: 1px solid rgb(50, 50, 50); 
-
-  &__container {
-    display: flex;
-    justify-content: space-between;
-    &--contact {
-      color: $white;
-      font-family: $fontlight;
-      font-size: 20px;
-    }
-    &--nav {
-      color: $neon;
-    }
-  }
+  border-bottom: 1px solid rgb(50, 50, 50);
+}
+.header_nav-small {
+  display: flex;
+  justify-content: space-between;
+}
+.nav_link {
+  color: $white;
+}
+.nav_button {
+  background: none;
+  outline: none;
+  border: none;
+  color: $neon;
+}
+.nav_links {
+  height: 0;
+  overflow: hidden;
+  transition: height 1s ease;
+}
+.show_links {
+  height: 5rem;
 }
