@@ -7,3 +7,28 @@
     font-size: 12px;
   }
 }
+.arrow-up {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  color: $neon;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+}
+.show-up {
+  visibility: visible;
+  z-index: 20;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
