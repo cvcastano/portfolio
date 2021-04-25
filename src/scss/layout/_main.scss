@@ -4,6 +4,7 @@
   background: url(../images/cover_mobile.gif) center no-repeat;
   background-size: cover;
   color: $white;
+  transition: transform 1s ease-in-out;
 
   @media all and (min-width: 768px) {
     background: url(../images/cover.gif) center contain no-repeat;
@@ -31,4 +32,7 @@
     font-size: 15px;
     font-weight: 600;
   }
+}
+.move-down {
+  transform: translate(0, 2rem);
 }
