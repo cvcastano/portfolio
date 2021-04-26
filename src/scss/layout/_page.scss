@@ -1,4 +1,3 @@
-
 .page {
   font-family: $fontlight;
 }
@@ -6,4 +5,34 @@
   margin: 0 20px;
   // background-color: pink;
 }
+.neon {
+  color: $neon;
+}
+.id {
+  scroll-margin-top: 80px;
+}
+.arrow-up {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 1rem;
+  color: $neon;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+}
+.show-up {
+  visibility: visible;
+  z-index: 20;
+}
 
+@keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
