@@ -38,16 +38,14 @@
   }
   i {
     padding-left: 1rem;
-    transition: all .4s ease-in-out;
+    transition: all 0.4s ease-in-out;
     &:hover {
       color: $white;
       transform: scale(1.2);
     }
   }
 }
-.nav_link {
-  color: $white;
-  padding-right: 1rem;
+.text_link {
   overflow: hidden;
   background: linear-gradient(to right, $neon, $neon 50%, white 50%);
   background-clip: text;
@@ -60,6 +58,7 @@
     background-position: 0 100%;
   }
 }
+
 .nav_links {
   height: 0;
   overflow: hidden;

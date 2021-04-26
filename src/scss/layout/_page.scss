@@ -24,6 +24,17 @@
   visibility: visible;
   z-index: 20;
 }
+.nav_link {
+  color: $white;
+  padding-right: 1rem;
+}
+.fa-arrow-circle-up {
+  transition: all 0.4s ease-in-out;
+  color: $neon;
+  &:hover {
+    transform: scale(0.9);
+  }
+}
 
 @keyframes bounce {
   0% {
@@ -36,9 +47,4 @@
     transform: translate(0);
   }
 }
-.fa-arrow-circle-up {
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    transform: scale(0.9);
-  }
-}
+
