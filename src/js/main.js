@@ -16,12 +16,13 @@ function showMenu() {
 
 function scrollUp() {
     const scrollHeight = window.pageYOffset;
-    if (scrollHeight > 200 & scrollHeight <= 300) {
+    if (scrollHeight > 100) {
         navList.classList.remove('show_links');
         navButton.classList.remove('rotate');
         header.classList.remove('dark-shadow');
         main.classList.remove('move-down');
-    } else if (scrollHeight > 300) {
+    }
+    if (scrollHeight > 300) {
         arrowUp.classList.add('show-up');
     } else {
         arrowUp.classList.remove('show-up');
