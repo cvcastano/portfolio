@@ -5,15 +5,14 @@ const navButton = document.querySelector('.js-hamburger');
 const navList = document.querySelector('.js-nav');
 const main = document.querySelector('.main');
 const arrowUp = document.querySelector('.arrow-up');
+const navLinks = document.querySelectorAll('.nav_link');
 
-
-function handleClick() {
+function showMenu() {
     navList.classList.toggle('show_links');
     navButton.classList.toggle('rotate');
     header.classList.toggle('dark-shadow');
     main.classList.toggle('move-down');
 }
-navButton.addEventListener('click', handleClick);
 
 function scrollUp() {
     const scrollHeight = window.pageYOffset;
@@ -28,4 +27,20 @@ function scrollUp() {
         arrowUp.classList.remove('show-up');
     }
 }
+
+function smoothSroll(array) {
+    array.forEach((element) => {
+        element.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = e.currentTarget.getAttribute('href');
+            document.querySelector(target).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+};
+
+navButton.addEventListener('click', showMenu);
 window.addEventListener('scroll', scrollUp);
+
+smoothSroll(navLinks);
