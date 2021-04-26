@@ -43,8 +43,16 @@
 .nav_link {
   color: $white;
   padding-right: 1rem;
+  overflow: hidden;
+  background: linear-gradient(to right, $neon, $neon 50%, white 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 500ms ease;
   &:hover {
-    color: $neon;
+    background-position: 0 100%;
   }
 }
 .nav_links {
