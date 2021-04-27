@@ -8,6 +8,10 @@ html {
 .container {
   margin: 0 20px;
   // background-color: pink;
+  @media all and (min-width: 1400px) {
+    max-width: 1400px;
+    margin: auto;
+  }
 }
 .neon {
   color: $neon;
