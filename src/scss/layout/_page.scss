@@ -35,8 +35,8 @@ html {
 .fa-arrow-circle-up {
   transition: all 0.4s ease-in-out;
   color: $neon;
-  background: white;
-  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   &:hover {
     transform: scale(0.9);
