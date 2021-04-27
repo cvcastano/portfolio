@@ -19,7 +19,7 @@ html {
   font-size: 1.5rem;
   position: fixed;
   bottom: 10%;
-  right: .5rem;
+  right: 0.5rem;
   color: $neon;
   animation: bounce 2s ease-in-out infinite;
   visibility: hidden;
@@ -30,13 +30,17 @@ html {
 }
 .nav_link {
   color: $white;
-  padding-right: .5rem;
+  padding-right: 0.5rem;
 }
 .fa-arrow-circle-up {
   transition: all 0.4s ease-in-out;
   color: $neon;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   &:hover {
     transform: scale(0.9);
+    box-shadow: none;
   }
 }
 
@@ -51,4 +55,3 @@ html {
     transform: translate(0);
   }
 }
-
