@@ -37,7 +37,7 @@
     flex-direction: row;
   }
   i {
-    padding-left: 1rem;
+    padding-left: .5rem;
     transition: all 0.4s ease-in-out;
     &:hover {
       color: $white;
@@ -46,6 +46,7 @@
   }
 }
 .text_link {
+  font-weight: 900;
   overflow: hidden;
   background: linear-gradient(to right, $neon, $neon 50%, white 50%);
   background-clip: text;
