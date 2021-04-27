@@ -1,4 +1,12 @@
 .contact {
-  height: 300px;
-  background-color: white;
+  padding: 2rem 0;
+}
+.contact_link {
+  color: darkgray;
+  text-decoration: underline wavy 2px $neon;
+  &:hover {
+    background-color: blanchedalmond;
+    color: $neon;
+    text-decoration: none;
+  }
 }
