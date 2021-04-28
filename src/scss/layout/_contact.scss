@@ -1,4 +1,6 @@
 .contact {
+  background-color: $white;
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
   padding: 2rem 0;
 }
 .contact_link {

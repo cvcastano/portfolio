@@ -1,6 +1,7 @@
 html {
   font-family: $fontlight;
   font-size: 20px;
+  background-color: $dark;
   @media all and (min-width: 768px) {
     font-size: 35px;
   }
