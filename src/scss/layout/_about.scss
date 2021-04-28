@@ -1,4 +1,14 @@
 .about {
-  height: 200px;
-  background-color: $white;
+  background-color: $dark;
+  padding: 1rem 0;
+
+  &_container {
+    padding: .5rem;
+    background-color: $white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: $neon 9px solid;
+  }
 }
