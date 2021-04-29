@@ -11,7 +11,7 @@ function showMenu() {
     navList.classList.toggle('show_links');
     navButton.classList.toggle('rotate');
     header.classList.toggle('dark-shadow');
-    main.classList.toggle('move-down');
+    main.classList.toggle('main_move-down');
 }
 
 function scrollUp() {
@@ -20,7 +20,7 @@ function scrollUp() {
         navList.classList.remove('show_links');
         navButton.classList.remove('rotate');
         header.classList.remove('dark-shadow');
-        main.classList.remove('move-down');
+        main.classList.remove('main_move-down');
     }
     if (scrollHeight > 300) {
         arrowUp.classList.add('show-up');
