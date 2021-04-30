@@ -4,8 +4,8 @@
   padding: 1rem 0;
   &_container {
     display: flex;
-    flex-direction: column;
-    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
   &_text {
     text-shadow: 1px 1px 2px $neon;
@@ -21,6 +21,7 @@
   font-family: $fontbold;
   border: $neon 1px solid;
   height: fit-content;
+  width: 13.5rem;
 
   &_links {
     display: flex;
