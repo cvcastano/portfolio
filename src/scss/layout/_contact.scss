@@ -1,14 +1,18 @@
 .contact {
-  background-color: $white;
+  background-color: $neon;
+  color: $white;
+  text-shadow: 1px 1px 2px $dark;
   clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
   padding: 2rem 0;
 }
 .contact_link {
-  color: darkgray;
-  text-decoration: underline wavy 2px $neon;
+  color: $dark;
+  text-decoration: underline wavy 2px $white;
+  text-shadow: 1px 1px 2px blanchedalmond;
   &:hover {
-    background-color: blanchedalmond;
-    color: $neon;
+    background-color: $dark;
+    color: $white;
     text-decoration: none;
+    border-radius: 15px;
   }
 }
