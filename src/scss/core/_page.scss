@@ -1,0 +1,62 @@
+html {
+  font-family: $fontlight;
+  font-size: 20px;
+  background-color: $dark;
+  @media all and (min-width: 768px) {
+    font-size: 35px;
+  }
+}
+.container {
+  margin: 0 20px;
+  // background-color: pink;
+  @media all and (min-width: 1400px) {
+    max-width: 1400px;
+    margin: auto;
+  }
+}
+.neon {
+  color: $neon;
+}
+.id {
+  scroll-margin-top: 3.5rem;
+}
+.arrow-up {
+  font-size: 1.5rem;
+  position: fixed;
+  bottom: 10%;
+  right: 0.5rem;
+  color: $neon;
+  animation: bounce 2s ease-in-out infinite;
+  visibility: hidden;
+}
+.show-up {
+  visibility: visible;
+  z-index: 20;
+}
+.nav_link {
+  color: $white;
+  padding-right: 0.5rem;
+}
+.fa-arrow-circle-up {
+  transition: all 0.4s ease-in-out;
+  color: $neon;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+  &:hover {
+    transform: scale(0.9);
+    box-shadow: none;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
