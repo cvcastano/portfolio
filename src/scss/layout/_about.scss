@@ -3,12 +3,13 @@
   padding: 1rem 0;
 
   &_container {
-    padding: .5rem;
-    background-color: $white;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom: $neon 9px solid;
+    width: fit-content;
+    padding: 0.8rem;
+    background-color: $white;   
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom: $neon 0.5rem solid;
   }
 }
