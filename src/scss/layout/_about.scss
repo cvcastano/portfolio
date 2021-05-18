@@ -1,14 +1,18 @@
 .about {
   background-color: $dark;
+  padding-bottom: 1rem;
 
   &_container {
-    width: fit-content;
+    display: flex;
+    justify-content: center;
     padding: 0.8rem;
-    background-color: $white;   
+    background-color:#161616;  
+    color: $white; 
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
+    border: $neon 1px solid;
     border-bottom: $neon 0.5rem solid;
   }
 }
