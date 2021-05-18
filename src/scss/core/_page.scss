@@ -9,6 +9,9 @@ html {
 .container {
   margin: 0 20px;
   // background-color: pink;
+  @media all and (min-width: 768px) {
+    margin: 0 30px;
+  }
   @media all and (min-width: 1400px) {
     max-width: 1400px;
     margin: auto;
