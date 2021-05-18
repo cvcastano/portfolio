@@ -1,22 +1,20 @@
 .projects {
-  background-color: $dark;
   color: $white;
-  padding: 1rem 0;
+  padding: 1rem;
   &_text {
     text-shadow: 1px 1px 2px $neon;
-    margin-bottom: 1rem;
   }
   &_container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: $neon 1px solid;
   }
   p {
     color: $neon;
   }
 }
 .project {
+  border: $neon 1px solid;
   padding: 1rem;
   margin-bottom: 1rem;
   font-family: $fontbold;
@@ -32,8 +30,8 @@
     }
   }
   &_img {
-    width: 80vw;
-    max-width: 1200px;
+    height: 50vw;
+    max-height: 500px;
     border-radius: 5px;
   }
 }
