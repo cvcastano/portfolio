@@ -1,6 +1,8 @@
 .stack {
-  padding: 1rem 0;
+  padding: 0.5rem 0 1rem;
   background-color: white;
+  border-top: $neon 1px solid;
+  border-bottom: $neon 1px solid;
   &_title {
     text-shadow: 1px 1px 2px $neon;
   }
