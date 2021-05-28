@@ -6,7 +6,7 @@
   color: $white;
   transition: transform 1s ease-in-out;
 
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     background: url(../images/cover.gif) center contain no-repeat;
   }
   &_container {

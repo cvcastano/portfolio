@@ -2,14 +2,14 @@ html {
   font-family: $fontlight;
   font-size: 20px;
   background-color: $dark;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     font-size: 35px;
   }
 }
 .container {
   margin: 0 20px;
   // background-color: pink;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     margin: 0 30px;
   }
   @media all and (min-width: 1400px) {

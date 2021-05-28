@@ -7,7 +7,7 @@
   z-index: 10;
 }
 .header_nav {
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     display: flex;
     justify-content: space-between;
   }
@@ -23,7 +23,7 @@
   color: $neon;
   font-size: 1.5rem;
   cursor: pointer;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     display: none;
   }
 }
@@ -31,7 +31,7 @@
   height: 0;
   color: $neon;
   display: none;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     height: auto;
     display: flex;
     flex-direction: row;
@@ -64,7 +64,7 @@
   height: 0;
   overflow: hidden;
   transition: height 1s ease;
-  @media all and (min-width: 768px) {
+  @media all and (min-width: 880px) {
     height: auto;
     display: flex;
   }
